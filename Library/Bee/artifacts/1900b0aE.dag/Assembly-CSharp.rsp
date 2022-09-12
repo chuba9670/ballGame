@@ -364,6 +364,7 @@
 "Assets/SampleScenes/Scripts/SlowMoButton.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/Coin.cs"
+"Assets/Scripts/Died.cs"
 "Assets/Scripts/LevelControl.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Score.cs"

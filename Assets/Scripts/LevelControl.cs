@@ -9,14 +9,12 @@ public class LevelControl : MonoBehaviour
 {
 
     public int index;
-    public string levelName;
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other)
     {
         if (other.name == "Player")
         {
-            SceneManager.LoadScene(1);
-            SceneManager.LoadScene(levelName);
+            SceneManager.LoadScene(index);
         }
     }
 
